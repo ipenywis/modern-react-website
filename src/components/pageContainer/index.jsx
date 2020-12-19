@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
-import styled from "styles/styled-components";
-import { scrollToTop } from "utils/page";
+import React from "react";
+import styled from "styled-components";
 
 const PageWrapper = styled.div`
   width: 100%;
@@ -13,11 +12,6 @@ const PageWrapper = styled.div`
 `;
 
 export function PageContainer(props) {
-  //Make sure always to scroll to top of the page on every page
-  useEffect(() => {
-    scrollToTop();
-  }, []);
-
   return <PageWrapper>{props.children}</PageWrapper>;
 }
 
@@ -27,7 +21,8 @@ export const InnerPageContainer = styled.div`
   max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : "auto")};
   /*min-height Need more testing*/
   min-height: 70vh;
-  padding: 1em;
+  //padding: 1em;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;

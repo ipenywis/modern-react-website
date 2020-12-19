@@ -1,0 +1,15 @@
+{
+  "services": [{ "id": 1, "title": "I will landscape your garden", 
+    "thumbnailUrl": "http://localhost:9000/garden.jpg", "rate": 34,
+    "rating": 4, "specialist": { "id": 1, "fullName": "Mark brone" }},
+    { "id": 2, "title": "I will paint your car from top to bottom", 
+      "thumbnailUrl": "http://localhost:9000/car.jpg", "rate": 50,
+      "rating": 3, "specialist": { "id": 1, "fullName": "Mark brone" }},
+      { "id": 3, "title": "I will Manage your team with strict plan", 
+        "thumbnailUrl": "http://localhost:9000/office.jpg", "rate": 42,
+        "rating": 5, "specialist": { "id": 1, "fullName": "Mark brone" }},
+        { "id": 4, "title": "I will Make your palace garden", 
+          "thumbnailUrl": "http://localhost:9000/grass.jpg", "rate": 50,
+          "rating": 5, "specialist": { "id": 1, "fullName": "Mark brone" }}
+  ]
+}
